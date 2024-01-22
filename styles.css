@@ -1,0 +1,39 @@
+#timer {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+#timer div {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#timer span {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333; /* Черный цвет для цифр */
+    background-color: #fff; /* Белый цвет для фона цифр */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень для эффекта поднятия */
+}
+
+#timer span:first-child {
+    margin-right: 5px;
+}
+
+#timer span:last-child {
+    margin-left: 5px;
+}
+
+/* Добавим стили для более красивого вида */
+body {
+    background-color: #800080;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
